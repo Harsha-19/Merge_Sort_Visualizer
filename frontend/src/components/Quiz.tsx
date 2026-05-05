@@ -22,7 +22,7 @@ export function Quiz() {
   const [isFinished, setIsFinished] = useState(false);
 
   useEffect(() => {
-    fetch('https://merge-sort-visualizer-ypg3.onrender.com/api/quiz')
+    fetch('https://merge-sort-visualizer-zchu.onrender.com')
       .then(res => res.json())
       .then(data => {
         setQuestions(data);
